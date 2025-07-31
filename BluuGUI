@@ -3,18 +3,22 @@ local Window = Library.CreateLib("BluuGUI", "DarkTheme")
 local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("FE Scripts")
 Section:NewButton("Infinite Yield", "Credits to owner", function()
+
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 Section:NewButton("Keyboard, "OP Keyboard", function()
+
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Delta-keyboard-46127"))()
 end)
 
 Section:NewButton("Telekinesis", "Can control unanchored parts", function()
+
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-OP-telekinesis-v2-by-sakupenguy-17891"))()
 end)
 
 Section:NewButton("Fake Wallhop", "Fake Wallhop FE", function()
+
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fake-Wallhop-33076"))()
 end)
 
