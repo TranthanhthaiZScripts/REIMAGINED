@@ -2,6 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("BluuGUI", "DarkTheme")
 local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("FE Scripts")
+local Button = Section:NewButton("Infinite Yield")
 Section:NewButton("Infinite Yield", "Credits to owner", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
