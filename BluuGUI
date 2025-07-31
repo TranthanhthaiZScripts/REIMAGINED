@@ -2,7 +2,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("BluuGUI", "DarkTheme")
 local Tab = Window:NewTab("Scripts")
 local Section = Tab:NewSection("FE Scripts")
-local Button = Section:NewButton("Infinite Yield")
 Section:NewButton("Infinite Yield", "Credits to owner", function()
 
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -29,6 +28,7 @@ label:UpdateLabel("These scripts are FE")
 
 local Window = Library.CreateLib("Speed changer", "DarkTheme")
 local Tab = Window:NewTab("Speed")
+local Section = Tab:NewSection("SPEED CHANGER")
 Section:UpdateSection("Speed Script")
 Section:NewSlider("Speed", "Change ur speed by this script.", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
