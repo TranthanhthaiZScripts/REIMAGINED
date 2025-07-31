@@ -26,7 +26,6 @@ Section:NewLabel("All of these scripts are not mine, credits to owners")
 
 label:UpdateLabel("These scripts are FE")
 
-local Window = Library.CreateLib("Speed changer", "DarkTheme")
 local Tab = Window:NewTab("Speed")
 local Section = Tab:NewSection("SPEED CHANGER")
 Section:UpdateSection("Speed Script")
