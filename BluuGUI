@@ -5,23 +5,30 @@ local Section = Tab:NewSection("FE Scripts")
 Section:NewButton("Infinite Yield", "Credits to owner", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
+
 Section:NewButton("Keyboard, "OP Keyboard", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Delta-keyboard-46127"))()
 end)
+
 Section:NewButton("Telekinesis", "Can control unanchored parts", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-OP-telekinesis-v2-by-sakupenguy-17891"))()
 end)
+
 Section:NewButton("Fake Wallhop", "Fake Wallhop FE", function()
     loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fake-Wallhop-33076"))()
 end)
+
 Section:NewLabel("All of these scripts are not mine, credits to owners")
+
 label:UpdateLabel("These scripts are FE")
+
 local Window = Library.CreateLib("Speed changer", "DarkTheme")
 local Tab = Window:NewTab("Speed")
 Section:UpdateSection("Speed Script")
 Section:NewSlider("Speed", "Change ur speed by this script.", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
+
 local colors = {
     SchemeColor = Color3.fromRGB(0,255,255),
     Background = Color3.fromRGB(0, 0, 0),
